@@ -16,7 +16,7 @@ body{
 background-position: right;
 background-size: cover;
 background-repeat: no-repeat;
-margin: 0 auto;
+margin: 0 auto 100px;
 position: relative;
 }
 .banner p{
@@ -30,7 +30,79 @@ position: relative;
     margin-left: 4%;
     position: absolute;
     bottom:50px ;
+    margin-left: 4%;
+}
+main{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card{
+    width: 30%;
+    height: 300px;
+    background-color:#def3d4 ; 
+     border: 1px solid #378131;
+     text-align: center;
+     border-radius: 5px;
+     margin-bottom: 10px;
+     
+     
+}
+.pic{
+    height: 40%;
+    background-image: url( https://www.sueddeutsche.de/image/sz.1.3343179/704x396?v=1508400235);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px 5px 0 0;
     
-  
+ 
+}
+.card-content{
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* padding: 12px; */
+}
+.card-content button{
+   margin: 0 10px;
+    padding: 10px;
+    background-color:#378131 ;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.pic-b{ 
+    background-image: url(https://media-cdn.tripadvisor.com/media/photo-s/08/9b/e6/76/lo-studente.jpg );
+
+}
+.pic-c{ 
+    background-image: url(https://media-cdn.tripadvisor.com/media/photo-s/18/4d/1c/d5/la-kaz-a-lea.jpg );
+
+}
+.pic-d{ 
+    background-image: url( https://www.sueddeutsche.de/image/sz.1.3343179/704x396?v=1508400235);
+
+}
+.pic-e{ 
+    background-image: url(https://media-cdn.tripadvisor.com/media/photo-s/08/9b/e6/76/lo-studente.jpg );
+
+}
+.pic-f{ 
+    background-image: url(https://media-cdn.tripadvisor.com/media/photo-s/18/4d/1c/d5/la-kaz-a-lea.jpg );
+
+}
+.pic-g{ 
+    background-image: url( https://www.sueddeutsche.de/image/sz.1.3343179/704x396?v=1508400235 );
+
+}
+.pic-h{ 
+    background-image: url(https://media-cdn.tripadvisor.com/media/photo-s/08/9b/e6/76/lo-studente.jpg );
+
+}
+.pic-i{ 
+    background-image: url(https://media-cdn.tripadvisor.com/media/photo-s/18/4d/1c/d5/la-kaz-a-lea.jpg );
 
 }
